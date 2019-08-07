@@ -99,7 +99,6 @@ function getThisBand(artist) {
                 // add a line to a lyric file, using appendFile
                 fs.appendFile('empirestate.txt', '\nRight there up on Broadway', (err) => {  
                     if (err) throw err;
-                    console.log('The lyrics were updated!');
                 });
 
 
@@ -130,8 +129,8 @@ function movieThis(movie) {
             console.log("\nYou searched for: ".green + movieData.Title.yellow);
             console.log("Made in: ".green + movieData.Year);
             console.log("Rated: ".green + movieData.Rated.blue);
-            console.log("IMDB Rating: ".green + movieData.imdbRating.yellow);
-            console.log("Country: ".green + movieData.Country.america);
+            console.log("IMDB Rating: ".green + movieData.imdbRating.orange);
+            console.log("Country: ".green + movieData.Country.yellow);
             console.log("Language: ".green + movieData.Language.magenta);
             console.log("Plot: ".green + movieData.Plot.white);
             console.log("Actors: ".green + movieData.Actors.magenta);

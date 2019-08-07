@@ -3,6 +3,7 @@
 LIRI (like SIRI) searches Spotify and Bands in town for songs and concerts, and OMDB for movies.
 
 ##Demo
+https://youtu.be/wOumdwJPZ_o
 
 ##Commands
 node liri.js concert-this <artist/band name here>
